@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/johnnysoutodev/project_portfolio-collapse#readme",
   "dependencies": {
+    "@popperjs/core": "^2.9.2",
     "grunt": "^1.4.0",
     "grunt-contrib-clean": "^2.0.0",
     "grunt-contrib-concat": "^1.0.1",
