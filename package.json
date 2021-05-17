@@ -1,0 +1,29 @@
+{
+  "name": "project_portfolio-collapse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnnysoutodev/project_portfolio-collapse.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnnysoutodev/project_portfolio-collapse/issues"
+  },
+  "homepage": "https://github.com/johnnysoutodev/project_portfolio-collapse#readme",
+  "dependencies": {
+    "grunt": "^1.4.0",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^4.0.0",
+    "grunt-contrib-uglify": "^5.0.1",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-image": "^6.4.0"
+  }
+}
