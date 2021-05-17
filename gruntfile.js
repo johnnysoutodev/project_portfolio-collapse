@@ -53,6 +53,18 @@ module.exports = function(grunt){
                 dest: 'src/js/jquery.js'
             },
 
+            popper: {
+                expand: false,
+                src: 'node_modules/@popperjs/core/dist/cjs/popper.js',
+                dest: 'src/js/popper.js'
+            },
+
+            bootstrap: {
+                expand: false,
+                src: 'node_modules/bootstrap/dist/js/bootstrap.js',
+                dest: 'src/js/bootstrap.js'
+            },
+
             images: {
                 expand: true,
                 cwd: 'src/images',
@@ -64,7 +76,7 @@ module.exports = function(grunt){
         concat: {
 
             js: {
-                src: ['src/js/analytics', 'src/js/jquery.js', 'src/js/**/*.js'],
+                src: ['src/js/jquery', 'src/js/popper.js', 'src/js/bootstrap.js', 'src/js/main.js', 'src/js/**/*.js'],
                 dest: '.tmp/js/scripts.min.js'
             },
 
