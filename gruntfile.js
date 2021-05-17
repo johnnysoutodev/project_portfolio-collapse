@@ -47,6 +47,12 @@ module.exports = function(grunt){
                 dest: 'public/js/scripts.min.js'
             },
 
+            jquery: {
+                expand: false,
+                src: 'node_modules/jquery/dist/jquery.js',
+                dest: 'src/js/jquery.js'
+            },
+
             images: {
                 expand: true,
                 cwd: 'src/images',
@@ -58,7 +64,7 @@ module.exports = function(grunt){
         concat: {
 
             js: {
-                src: ['src/js/analytics', 'src/js/**/*.js'],
+                src: ['src/js/analytics', 'src/js/jquery.js', 'src/js/**/*.js'],
                 dest: '.tmp/js/scripts.min.js'
             },
 
